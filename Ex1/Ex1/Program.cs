@@ -6,12 +6,12 @@ namespace Ex1
     {
         static void Main(string[] args)
         {
-            int n,i;
+            int n;
             bool isfirst = true;
             Console.WriteLine("veuillez entrer un nombre");
             n = Convert.ToInt32(Console.ReadLine()); 
             isfirst = true;
-            for (i = 2; i < n; i++)
+            for (int i = 2; i < n; i++)
             {
                 if (n % i == 0)
                     isfirst = false;
@@ -19,9 +19,9 @@ namespace Ex1
                 break;
             }
             if (isfirst == true)
-            Console.WriteLine("ce nombre est premier");
+            Console.WriteLine("{0] est un nombre premier ",n);
             else
-                Console.WriteLine("ce nombre n'est pas premier ");
-        } 
+                Console.WriteLine("{0} n'est pas un nombre premier ",n);
+        }
     }
 }
