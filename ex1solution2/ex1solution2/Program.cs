@@ -25,7 +25,7 @@ namespace ex1solution2
 
                     return true;
                 }
-            }
+        }
         }
     }
 }
