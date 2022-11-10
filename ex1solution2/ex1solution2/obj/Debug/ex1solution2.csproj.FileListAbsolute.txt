@@ -1,3 +1,0 @@
-C:\Users\hamza\Desktop\S3\c#\ex1solution2\ex1solution2\obj\Debug\ex1solution2.csproj.AssemblyReference.cache
-C:\Users\hamza\Desktop\S3\c#\ex1solution2\ex1solution2\obj\Debug\ex1solution2.csproj.SuggestedBindingRedirects.cache
-C:\Users\hamza\Desktop\S3\c#\ex1solution2\ex1solution2\obj\Debug\ex1solution2.csproj.CoreCompileInputs.cache
