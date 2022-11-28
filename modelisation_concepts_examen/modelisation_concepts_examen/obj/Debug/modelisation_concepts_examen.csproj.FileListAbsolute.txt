@@ -1,8 +1,0 @@
-C:\Users\hamza\Desktop\S3\c#\modelisation_concepts_examen\modelisation_concepts_examen\bin\Debug\modelisation_concepts_examen.exe.config
-C:\Users\hamza\Desktop\S3\c#\modelisation_concepts_examen\modelisation_concepts_examen\bin\Debug\modelisation_concepts_examen.exe
-C:\Users\hamza\Desktop\S3\c#\modelisation_concepts_examen\modelisation_concepts_examen\bin\Debug\modelisation_concepts_examen.pdb
-C:\Users\hamza\Desktop\S3\c#\modelisation_concepts_examen\modelisation_concepts_examen\obj\Debug\modelisation_concepts_examen.csproj.AssemblyReference.cache
-C:\Users\hamza\Desktop\S3\c#\modelisation_concepts_examen\modelisation_concepts_examen\obj\Debug\modelisation_concepts_examen.csproj.SuggestedBindingRedirects.cache
-C:\Users\hamza\Desktop\S3\c#\modelisation_concepts_examen\modelisation_concepts_examen\obj\Debug\modelisation_concepts_examen.csproj.CoreCompileInputs.cache
-C:\Users\hamza\Desktop\S3\c#\modelisation_concepts_examen\modelisation_concepts_examen\obj\Debug\modelisation_concepts_examen.exe
-C:\Users\hamza\Desktop\S3\c#\modelisation_concepts_examen\modelisation_concepts_examen\obj\Debug\modelisation_concepts_examen.pdb
