@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HqSCIdYOBcSBRSnS++mH1O4dFmxmhVDNxUGTBwAhUPyC6zi/mDqZ0qnI1XyNSgAl0mhWUa/0c65ll53CkfKfug==",
+  "dgSpecHash": "Hsy9KJ8SA/63tgDx3GpZn4tGwDyVrNLJuBYBwgrIYtPkx4tFqZLO/3QrC+pqQ063toIiPII7F+NpDz7QDBmgug==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hamza\\Desktop\\S3\\c#\\ConnectoDBFilm\\ConnectoDBFilm\\ConnectoDBFilm.csproj",
+  "projectFilePath": "C:\\Users\\hamza\\Desktop\\S3\\c#\\ConnecToDBFilm\\ConnectoDBFilm\\ConnectoDBFilm.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hamza\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\hamza\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

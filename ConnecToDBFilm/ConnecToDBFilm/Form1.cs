@@ -12,50 +12,50 @@ namespace ConnectoDBFilm
             InitializeComponent();
         }
 
-        static string chaine = "Data Source=PC-HAMZA;Initial Catalog=Film;Integrated Security=True";
-
-        static SqlConnection cnx = new SqlConnection(chaine);
-        static SqlCommand cmd = new SqlCommand();
-        static SqlDataAdapter adapter = new SqlDataAdapter(cmd);
-
-
         private void buttselect_Click_1(object sender, EventArgs e)
         {
-            cnx.Open();
-            cmd.CommandText = "select * from film";
-            cmd.Connection = cnx;
+            SqlConnection con = new SqlConnection("Data Source=PC-HAMZA;Initial Catalog=Film;Integrated Security=True");
+            con.Open();
+            SqlCommand cmd = new SqlCommand("select * from Film",con);
+            SqlDataAdapter da = new SqlDataAdapter(cmd);   
             DataTable dt = new DataTable();
-            adapter.Fill(dt);
-            dataGridView1.DataSource = dt;
-            cnx.Close();
+            da.Fill(dt);
+            dataGridView1.DataSource= dt;
         }
 
         private void buttinsert_Click(object sender, EventArgs e)
         {
-            cnx.Open();
-            cmd.Connection = cnx;
-            cmd.CommandText = "insert into film(Id_film, Nom_film) values('" + txtNom_film + "','" + txtId_film + "') ";
+            SqlConnection con = new SqlConnection("Data Source=PC-HAMZA;Initial Catalog=Film;Integrated Security=True");
+            con.Open();
+            SqlCommand cmd = new SqlCommand("insert into Film values (@Id_film,@Nom_film)",con);
+            cmd.Parameters.AddWithValue("@Id_film", int.Parse(textBox1.Text));
+            cmd.Parameters.AddWithValue("@Nom_film",(textBox2.Text));
             cmd.ExecuteNonQuery();
-            cnx.Close();
+            con.Close();
+            MessageBox.Show("Successfully Saved");
         }
 
         private void buttupdate_Click(object sender, EventArgs e)
         {
-            cnx.Open();
-            cmd.Connection = cnx;
-            cmd.CommandText = "update film set Id_film='" + txtId_film + "' where Id_film='" + txtId_film + "' ";
+            SqlConnection con = new SqlConnection("Data Source=PC-HAMZA;Initial Catalog=Film;Integrated Security=True");
+            con.Open();
+            SqlCommand cmd = new SqlCommand("Update Film set Film Name=@Nom_film where Film ID=@Id_film",con);
+            cmd.Parameters.AddWithValue("@Id_film", int.Parse(textBox1.Text));
+            cmd.Parameters.AddWithValue("@Nom_film", (textBox2.Text));
             cmd.ExecuteNonQuery();
-            cnx.Close();
+            con.Close();
+            MessageBox.Show("Successfully Updated");
         }
 
         private void buttdelete_Click(object sender, EventArgs e)
         {
-            cnx.Open();
-            cmd.Connection = cnx;
-            cmd.CommandText = "delete from film where Id_film='" + txtId_film + "' ";
+            SqlConnection con = new SqlConnection("Data Source=PC-HAMZA;Initial Catalog=Film;Integrated Security=True");
+            con.Open();
+            SqlCommand cmd = new SqlCommand("Delete Film where Film ID=@Id_film", con);
+            cmd.Parameters.AddWithValue("@Id_film",int.Parse(textBox1.Text));
             cmd.ExecuteNonQuery();
-            cnx.Close();
+            con.Close();
+            MessageBox.Show("Successfully Deleted");
         }
-
     }
 }
