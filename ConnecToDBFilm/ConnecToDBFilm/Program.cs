@@ -1,4 +1,4 @@
-namespace ConnecToDBFilm
+namespace ConnectoDBFilm
 {
     internal static class Program
     {

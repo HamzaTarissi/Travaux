@@ -1,9 +1,6 @@
-using System;
-using System.Data;
-using System.Windows.Forms;
 using System.Data.SqlClient;
 
-namespace ConnecToDBFilm
+namespace ConnectoDBFilm
 {
     public partial class Form1 : Form
     {
@@ -21,14 +18,12 @@ namespace ConnecToDBFilm
             SqlConnection con = new SqlConnection(chaine);
             con.Open();
             string query = "select * from Film";
-            SqlCommand cmd = new SqlCommand(query,con);
+            SqlCommand cmd = new SqlCommand(query, con);
             SqlDataReader reader = cmd.ExecuteReader();
             while (reader.Read())
             {
                 string output = "output = " + reader.GetValue(0) + "-" + reader.GetValue(1);
-                MessageBox.Show(output);  
+                MessageBox.Show(output);
             }
-
         }
-    }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hamza\\Desktop\\S3\\c#\\ConnecToDBFilm\\ConnecToDBFilm\\ConnecToDBFilm.csproj": {}
+    "C:\\Users\\hamza\\Desktop\\S3\\c#\\ConnectoDBFilm\\ConnectoDBFilm\\ConnectoDBFilm.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hamza\\Desktop\\S3\\c#\\ConnecToDBFilm\\ConnecToDBFilm\\ConnecToDBFilm.csproj": {
+    "C:\\Users\\hamza\\Desktop\\S3\\c#\\ConnectoDBFilm\\ConnectoDBFilm\\ConnectoDBFilm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hamza\\Desktop\\S3\\c#\\ConnecToDBFilm\\ConnecToDBFilm\\ConnecToDBFilm.csproj",
-        "projectName": "ConnecToDBFilm",
-        "projectPath": "C:\\Users\\hamza\\Desktop\\S3\\c#\\ConnecToDBFilm\\ConnecToDBFilm\\ConnecToDBFilm.csproj",
+        "projectUniqueName": "C:\\Users\\hamza\\Desktop\\S3\\c#\\ConnectoDBFilm\\ConnectoDBFilm\\ConnectoDBFilm.csproj",
+        "projectName": "ConnectoDBFilm",
+        "projectPath": "C:\\Users\\hamza\\Desktop\\S3\\c#\\ConnectoDBFilm\\ConnectoDBFilm\\ConnectoDBFilm.csproj",
         "packagesPath": "C:\\Users\\hamza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hamza\\Desktop\\S3\\c#\\ConnecToDBFilm\\ConnecToDBFilm\\obj\\",
+        "outputPath": "C:\\Users\\hamza\\Desktop\\S3\\c#\\ConnectoDBFilm\\ConnectoDBFilm\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hamza\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("ConnecToDBFilm")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("ConnectoDBFilm")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("ConnecToDBFilm")]
-[assembly: System.Reflection.AssemblyTitleAttribute("ConnecToDBFilm")]
+[assembly: System.Reflection.AssemblyProductAttribute("ConnectoDBFilm")]
+[assembly: System.Reflection.AssemblyTitleAttribute("ConnectoDBFilm")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]

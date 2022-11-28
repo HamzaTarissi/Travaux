@@ -1,4 +1,4 @@
-﻿namespace ConnecToDBFilm
+﻿namespace ConnectoDBFilm
 {
     partial class Form1
     {
@@ -38,17 +38,16 @@
             // 
             // buttselect
             // 
-            this.buttselect.Location = new System.Drawing.Point(550, 75);
+            this.buttselect.Location = new System.Drawing.Point(545, 66);
             this.buttselect.Name = "buttselect";
-            this.buttselect.Size = new System.Drawing.Size(166, 241);
+            this.buttselect.Size = new System.Drawing.Size(164, 242);
             this.buttselect.TabIndex = 0;
             this.buttselect.Text = "select";
             this.buttselect.UseVisualStyleBackColor = true;
-            this.buttselect.Click += new System.EventHandler(this.buttselect_Click);
             // 
             // buttinsert
             // 
-            this.buttinsert.Location = new System.Drawing.Point(68, 364);
+            this.buttinsert.Location = new System.Drawing.Point(53, 365);
             this.buttinsert.Name = "buttinsert";
             this.buttinsert.Size = new System.Drawing.Size(94, 29);
             this.buttinsert.TabIndex = 1;
@@ -57,7 +56,7 @@
             // 
             // buttupdate
             // 
-            this.buttupdate.Location = new System.Drawing.Point(233, 364);
+            this.buttupdate.Location = new System.Drawing.Point(234, 365);
             this.buttupdate.Name = "buttupdate";
             this.buttupdate.Size = new System.Drawing.Size(94, 29);
             this.buttupdate.TabIndex = 2;
@@ -66,7 +65,7 @@
             // 
             // buttdelete
             // 
-            this.buttdelete.Location = new System.Drawing.Point(405, 364);
+            this.buttdelete.Location = new System.Drawing.Point(402, 365);
             this.buttdelete.Name = "buttdelete";
             this.buttdelete.Size = new System.Drawing.Size(94, 29);
             this.buttdelete.TabIndex = 3;
@@ -76,11 +75,11 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(68, 75);
+            this.dataGridView1.Location = new System.Drawing.Point(53, 66);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 29;
-            this.dataGridView1.Size = new System.Drawing.Size(431, 241);
+            this.dataGridView1.Size = new System.Drawing.Size(443, 242);
             this.dataGridView1.TabIndex = 4;
             // 
             // Form1

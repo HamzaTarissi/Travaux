@@ -13,5 +13,5 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = ConnecToDBFilm
-build_property.ProjectDir = C:\Users\hamza\Desktop\S3\c#\ConnecToDBFilm\ConnecToDBFilm\
+build_property.RootNamespace = ConnectoDBFilm
+build_property.ProjectDir = C:\Users\hamza\Desktop\S3\c#\ConnectoDBFilm\ConnectoDBFilm\
