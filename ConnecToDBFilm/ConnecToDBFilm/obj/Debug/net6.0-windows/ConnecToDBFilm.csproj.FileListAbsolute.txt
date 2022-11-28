@@ -1,0 +1,7 @@
+C:\Users\hamza\Desktop\S3\c#\ConnecToDBFilm\ConnecToDBFilm\obj\Debug\net6.0-windows\ConnecToDBFilm.csproj.AssemblyReference.cache
+C:\Users\hamza\Desktop\S3\c#\ConnecToDBFilm\ConnecToDBFilm\obj\Debug\net6.0-windows\ConnecToDBFilm.Form1.resources
+C:\Users\hamza\Desktop\S3\c#\ConnecToDBFilm\ConnecToDBFilm\obj\Debug\net6.0-windows\ConnecToDBFilm.csproj.GenerateResource.cache
+C:\Users\hamza\Desktop\S3\c#\ConnecToDBFilm\ConnecToDBFilm\obj\Debug\net6.0-windows\ConnecToDBFilm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hamza\Desktop\S3\c#\ConnecToDBFilm\ConnecToDBFilm\obj\Debug\net6.0-windows\ConnecToDBFilm.AssemblyInfoInputs.cache
+C:\Users\hamza\Desktop\S3\c#\ConnecToDBFilm\ConnecToDBFilm\obj\Debug\net6.0-windows\ConnecToDBFilm.AssemblyInfo.cs
+C:\Users\hamza\Desktop\S3\c#\ConnecToDBFilm\ConnecToDBFilm\obj\Debug\net6.0-windows\ConnecToDBFilm.csproj.CoreCompileInputs.cache
