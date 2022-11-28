@@ -44,6 +44,7 @@
             this.buttselect.TabIndex = 0;
             this.buttselect.Text = "select";
             this.buttselect.UseVisualStyleBackColor = true;
+            this.buttselect.Click += new System.EventHandler(this.buttselect_Click_1);
             // 
             // buttinsert
             // 
@@ -53,6 +54,7 @@
             this.buttinsert.TabIndex = 1;
             this.buttinsert.Text = "insert";
             this.buttinsert.UseVisualStyleBackColor = true;
+            this.buttinsert.Click += new System.EventHandler(this.buttinsert_Click);
             // 
             // buttupdate
             // 
@@ -62,6 +64,7 @@
             this.buttupdate.TabIndex = 2;
             this.buttupdate.Text = "update";
             this.buttupdate.UseVisualStyleBackColor = true;
+            this.buttupdate.Click += new System.EventHandler(this.buttupdate_Click);
             // 
             // buttdelete
             // 
@@ -71,6 +74,7 @@
             this.buttdelete.TabIndex = 3;
             this.buttdelete.Text = "delete";
             this.buttdelete.UseVisualStyleBackColor = true;
+            this.buttdelete.Click += new System.EventHandler(this.buttdelete_Click);
             // 
             // dataGridView1
             // 

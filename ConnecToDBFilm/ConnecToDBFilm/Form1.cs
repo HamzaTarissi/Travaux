@@ -1,3 +1,6 @@
+using System;
+using System.Data;
+using System.Windows.Forms;
 using System.Data.SqlClient;
 
 namespace ConnectoDBFilm
@@ -8,22 +11,51 @@ namespace ConnectoDBFilm
         {
             InitializeComponent();
         }
+
         static string chaine = "Data Source=PC-HAMZA;Initial Catalog=Film;Integrated Security=True";
+
         static SqlConnection cnx = new SqlConnection(chaine);
         static SqlCommand cmd = new SqlCommand();
         static SqlDataAdapter adapter = new SqlDataAdapter(cmd);
-        private void buttselect_Click(object sender, EventArgs e)
+
+
+        private void buttselect_Click_1(object sender, EventArgs e)
         {
-            string connstring = "Data source  = PC-HAMZA;Initial Catalog = Film; Integrated Security = True";
-            SqlConnection con = new SqlConnection(chaine);
-            con.Open();
-            string query = "select * from Film";
-            SqlCommand cmd = new SqlCommand(query, con);
-            SqlDataReader reader = cmd.ExecuteReader();
-            while (reader.Read())
-            {
-                string output = "output = " + reader.GetValue(0) + "-" + reader.GetValue(1);
-                MessageBox.Show(output);
-            }
+            cnx.Open();
+            cmd.CommandText = "select * from film";
+            cmd.Connection = cnx;
+            DataTable dt = new DataTable();
+            adapter.Fill(dt);
+            dataGridView1.DataSource = dt;
+            cnx.Close();
         }
+
+        private void buttinsert_Click(object sender, EventArgs e)
+        {
+            cnx.Open();
+            cmd.Connection = cnx;
+            cmd.CommandText = "insert into film(Id_film, Nom_film) values('" + txtNom_film + "','" + txtId_film + "') ";
+            cmd.ExecuteNonQuery();
+            cnx.Close();
+        }
+
+        private void buttupdate_Click(object sender, EventArgs e)
+        {
+            cnx.Open();
+            cmd.Connection = cnx;
+            cmd.CommandText = "update film set Id_film='" + txtId_film + "' where Id_film='" + txtId_film + "' ";
+            cmd.ExecuteNonQuery();
+            cnx.Close();
+        }
+
+        private void buttdelete_Click(object sender, EventArgs e)
+        {
+            cnx.Open();
+            cmd.Connection = cnx;
+            cmd.CommandText = "delete from film where Id_film='" + txtId_film + "' ";
+            cmd.ExecuteNonQuery();
+            cnx.Close();
+        }
+
+    }
 }
