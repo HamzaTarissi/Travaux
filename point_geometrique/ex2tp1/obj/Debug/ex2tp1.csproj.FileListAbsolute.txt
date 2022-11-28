@@ -1,3 +1,0 @@
-C:\Users\hamza\Desktop\S3\c#\ex2tp1\ex2tp1\obj\Debug\ex2tp1.csproj.AssemblyReference.cache
-C:\Users\hamza\Desktop\S3\c#\ex2tp1\ex2tp1\obj\Debug\ex2tp1.csproj.SuggestedBindingRedirects.cache
-C:\Users\hamza\Desktop\S3\c#\ex2tp1\ex2tp1\obj\Debug\ex2tp1.csproj.CoreCompileInputs.cache
