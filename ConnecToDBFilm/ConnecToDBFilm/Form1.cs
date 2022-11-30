@@ -57,5 +57,10 @@ namespace ConnectoDBFilm
             con.Close();
             MessageBox.Show("Successfully Deleted");
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

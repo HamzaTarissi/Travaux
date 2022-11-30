@@ -14,7 +14,7 @@ namespace Dbfilmconnec
         {
             SqlConnection con = new SqlConnection("Data Source=PC-HAMZA;Initial Catalog=Film;Integrated Security=True");
             con.Open();
-            SqlCommand cmd = new SqlCommand("insert into Film values (@ID,@Name)", con);
+            SqlCommand cmd = new SqlCommand("insert into Film values (@Id,@Name)", con);
             cmd.Parameters.AddWithValue("@Id", int.Parse(textBox1.Text));
             cmd.Parameters.AddWithValue("@Name", (textBox2.Text));
             cmd.ExecuteNonQuery();
@@ -26,7 +26,7 @@ namespace Dbfilmconnec
         {
             SqlConnection con = new SqlConnection("Data Source=PC-HAMZA;Initial Catalog=Film;Integrated Security=True");
             con.Open();
-            SqlCommand cmd = new SqlCommand("Declare @Id_film INT"+"Update Film set Name=@Nom_film where Id=@Id_film)", con);
+            SqlCommand cmd = new SqlCommand("Update Film set Nom_film=@Name where Id_film=@Id)", con);
             cmd.Parameters.AddWithValue("@Id", int.Parse(textBox1.Text));
             cmd.Parameters.AddWithValue("@Name", (textBox2.Text));
             cmd.ExecuteNonQuery();
@@ -38,7 +38,7 @@ namespace Dbfilmconnec
         {
             SqlConnection con = new SqlConnection("Data Source=PC-HAMZA;Initial Catalog=Film;Integrated Security=True");
             con.Open();
-            SqlCommand cmd = new SqlCommand("Delete Film where Id=@Id_film)", con);
+            SqlCommand cmd = new SqlCommand("Delete Film where Id_film=@Id)", con);
             cmd.Parameters.AddWithValue("@Id", int.Parse(textBox1.Text));
             cmd.ExecuteNonQuery();
             con.Close();
