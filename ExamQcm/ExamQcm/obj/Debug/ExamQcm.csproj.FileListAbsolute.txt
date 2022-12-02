@@ -1,0 +1,11 @@
+C:\Users\hamza\Desktop\S3\c#\ExamQcm\ExamQcm\bin\Debug\ExamQcm.exe.config
+C:\Users\hamza\Desktop\S3\c#\ExamQcm\ExamQcm\bin\Debug\ExamQcm.exe
+C:\Users\hamza\Desktop\S3\c#\ExamQcm\ExamQcm\bin\Debug\ExamQcm.pdb
+C:\Users\hamza\Desktop\S3\c#\ExamQcm\ExamQcm\obj\Debug\ExamQcm.csproj.AssemblyReference.cache
+C:\Users\hamza\Desktop\S3\c#\ExamQcm\ExamQcm\obj\Debug\ExamQcm.csproj.SuggestedBindingRedirects.cache
+C:\Users\hamza\Desktop\S3\c#\ExamQcm\ExamQcm\obj\Debug\ExamQcm.Form1.resources
+C:\Users\hamza\Desktop\S3\c#\ExamQcm\ExamQcm\obj\Debug\ExamQcm.Properties.Resources.resources
+C:\Users\hamza\Desktop\S3\c#\ExamQcm\ExamQcm\obj\Debug\ExamQcm.csproj.GenerateResource.cache
+C:\Users\hamza\Desktop\S3\c#\ExamQcm\ExamQcm\obj\Debug\ExamQcm.csproj.CoreCompileInputs.cache
+C:\Users\hamza\Desktop\S3\c#\ExamQcm\ExamQcm\obj\Debug\ExamQcm.exe
+C:\Users\hamza\Desktop\S3\c#\ExamQcm\ExamQcm\obj\Debug\ExamQcm.pdb
